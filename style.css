@@ -155,6 +155,20 @@ body{
     padding-right: 80px;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    background-color: orange;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 50px;
+   
+}
+
 /* footer styles */
 
 footer {
@@ -185,3 +199,32 @@ hr {
     font-size: 10px;
     font-size: 14px;
 }
+
+/* responsive */
+/* tablet */
+@media only screen and (max-width: 768px) {
+   
+    .upcoming-match-fixture{
+        display: block;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .btn{
+        display: none;
+    }
+}
+
+    @media only screen and (max-width: 576px) {
+   
+        .upcoming-match-fixture{
+            display: block;
+        }
+        .blogs{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }

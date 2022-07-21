@@ -91,6 +91,12 @@ body{
     text-align: center;
 }
 
+.side-bar-btn a{
+    text-decoration: none;
+    color: black;
+    
+}
+
 .side-bar-btn-different {
     color: white;
     width: 252px;
